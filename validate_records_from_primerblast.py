@@ -364,7 +364,7 @@ class PrimerBlastValidator:
 
 
 def validate_all_jobs(
-    jobs_path: str = "validation_results_15000_to_18866_resubmit.json.backup_extraction_retried.json",
+    jobs_path: str = "primer_jobs_all.json",
     output_path: str = None,
     verbose: bool = False,
     start_line: int = 0,
@@ -539,7 +539,7 @@ def validate_all_jobs(
 
 if __name__ == "__main__":
     # Default configuration
-    jobs_path = "validation_results_15000_to_18866_resubmit.json.backup_extraction_retried.json"
+    jobs_path = "primer_jobs_all.json"
     verbose = '--verbose' in sys.argv or '-v' in sys.argv
     start_line = 0
     end_line = None
