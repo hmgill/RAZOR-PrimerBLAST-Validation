@@ -412,7 +412,7 @@ def validate_all_jobs(
     # Auto-generate output filename if not provided
     if output_path is None:
         if end_line is None:
-            output_path = f"validation_results_{start_line}_to_end.json"
+            output_path = f"razor_validation_results.json"
         else:
             output_path = f"validation_results_{start_line}_to_{end_line}.json"
     
