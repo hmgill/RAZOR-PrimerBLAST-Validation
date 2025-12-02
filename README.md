@@ -26,7 +26,7 @@ The `validate_records_from_primerblast.py` script is used to parse the HTML outp
 * The reverse primer sequence for the query / result are identical
 * The PCR product size for the query / result are identical
   
-The results are written to a new output JSON file. 
+The results are written to a new output JSON file (`razor_validation_results.json`). 
 
 **note: Primer-BLAST jobs take a couple of minutes to run before they are complete. Make sure to give enough time before running this script**
 
@@ -35,7 +35,7 @@ This script reads the parsed job results (eg `razor_ncbi_primerblast_validation.
 The results are also written to separate text files (`primer_validation_summary.txt`, `all_primer_records.txt`). 
 
 ### RESULT SUMMARY 
-After running the scripts above, we found that 18818 / 18864 primer pairs passed the Primer-BLAST validation, while 46 did not (`primer_validation_summary.txt`). The errors or failure causes for the 46 rejected primers are shown in the 'failure_cause' field for those entries in `razor_ncbi_primerblast_validation.json`.
+After running the scripts above, we found that 18826 / 18864 primer pairs passed the Primer-BLAST validation, while 38 did not (`primer_validation_summary.txt`). The errors or failure causes for the rejected primers are shown in the 'failure_cause' field for those entries in `razor_validation_results.json`.
 
 
 
