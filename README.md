@@ -35,7 +35,7 @@ This script reads the parsed job results (eg `razor_ncbi_primerblast_validation.
 The results are also written to separate text files (`primer_validation_summary.txt`, `all_primer_records.txt`). 
 
 ### RESULT SUMMARY 
-After running the scripts above, we found that 18826 / 18864 primer pairs passed the Primer-BLAST validation, while 39 did not (`primer_validation_summary.txt`). The errors or failure causes for the rejected primers are shown in the 'failure_cause' field for those entries in `razor_validation_results.json`.
+After running the scripts above, we found that 18826 / 18864 primer pairs passed the Primer-BLAST validation, while 38 did not (`primer_validation_summary.txt`). The errors or failure causes for the rejected primers are shown in the 'failure_cause' field for those entries in `razor_validation_results.json`.
 
 
 
